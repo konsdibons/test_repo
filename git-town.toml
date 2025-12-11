@@ -4,4 +4,4 @@
 main = "main"
 
 [hosting]
-forge-type = "github"
+github-connector = "gh" # or "api"
