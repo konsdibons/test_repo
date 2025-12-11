@@ -20,7 +20,7 @@ forge-type = "github"
 
 [ship]
 delete-tracking-branch = true
-strategy = "api"
+strategy = "gh" # defaul is "api"
 
 [sync]
 auto-sync = true
