@@ -2,4 +2,31 @@
 
 [branches]
 main = "develop"
+contribution-regex = ""
+default-type = "feature"
+feature-regex = ""
+observed-regex = ""
+perennial-regex = ""
 perennials = ["main"]
+
+[create]
+new-branch-type = "feature"
+share-new-branches = "no"
+
+[hosting]
+dev-remote = "origin"
+origin-hostname = "" # use the hostname in the origin URL
+forge-type = "github"
+
+[ship]
+delete-tracking-branch = true
+strategy = "api"
+
+[sync]
+auto-sync = true
+feature-strategy = "merge"
+perennial-strategy = "rebase"
+prototype-strategy = "rebase"
+push-hook = true
+tags = true
+upstream = true
